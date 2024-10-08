@@ -8,7 +8,7 @@ import github from "../assets/github.png";
 import discord from "../assets/discord.png";
 import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
-import leetcode from "../assets/leetcode.png";
+
 
 function Socials() {
   const { ref, inView } = useInView({
@@ -18,39 +18,34 @@ function Socials() {
 
   const socialsList = [
     {
-      name: "twitter",
-      img: twitter,
-      url: "https://twitter.com/suryansh17p",
-    },
-    {
       name: "linkedin",
       img: linkedin,
-      url: "https://www.linkedin.com/in/suryansh-pandey-0b2966252/",
+      url: "https://www.linkedin.com/in/kishan-kumar-n-855058234/",
     },
     {
       name: "github",
       img: github,
-      url: "https://github.com/suryansh-17",
+      url: "https://github.com/Kishan9535",
     },
     {
-      name: "discord",
-      img: discord,
-      url: "https://discord.com/users/374865982910627840",
-    },
-    {
-      name: "telegram",
-      img: telegram,
-      url: "https://t.me/suryansh_17",
-    },
-    {
-      name: "leetcode",
-      img: leetcode,
-      url: "https://leetcode.com/suryansh_17/",
+      name: "twitter",
+      img: twitter,
+      url: "https://x.com/KISHANKUMA46801",
     },
     {
       name: "instagram",
       img: instagram,
-      url: "https://www.instagram.com/suryansh.017?igsh=YzcycTFheDg5dWk4",
+      url: "https://www.instagram.com/kishan.kumar17/",
+    },
+    {
+      name: "discord",
+      img: discord,
+      url: "https://discord.com/users/26914144127127",
+    },
+    {
+      name: "telegram",
+      img: telegram,
+      url: "https://t.me/Kishan_177",
     },
   ];
 
