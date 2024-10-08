@@ -6,6 +6,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const skills = [
   "Competative Programmer",
+   "Problem Solver",
   "Full Stack Developer",
   "React Developer",
   "Node.js Developer",
